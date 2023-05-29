@@ -24,14 +24,14 @@ There are multiple ways to install this plugin
 
 #### Download and extract zip file
 
-Download the zip file from [github](https://github.com/yesoreyeram/grafana-azure-datasource/archive/master.zip) and extract into your grafana plugin folder. Then restart Grafana.
+Download the zip file from [github](https://github.com/pradipsakh/grafana-azure-datasource/releases/download/1.0.0/grafana-azure-datasource-master.zip) and extract into your grafana plugin folder. Then restart Grafana.
 
 #### Using grafana-cli
 
 If you are using grafana-cli, execute the following command to install the plugin
 
 ```
-grafana-cli --pluginUrl https://github.com/yesoreyeram/grafana-azure-datasource/archive/master.zip plugins install yesoreyeram-azure-datasource
+grafana-cli --pluginUrl https://github.com/pradipsakh/grafana-azure-datasource/releases/download/1.0.0/grafana-azure-datasource-master.zip plugins install yesoreyeram-azure-datasource
 ```
 #### Using helm chart
 
@@ -39,7 +39,7 @@ If you use help chart to provision grafana, use the following config to install 
 
 ```
 plugins:
-  - https://github.com/yesoreyeram/grafana-azure-datasource/archive/master.zip;yesoreyeram-azure-datasource
+  - https://github.com/pradipsakh/grafana-azure-datasource/releases/download/1.0.0/grafana-azure-datasource-master.zip;yesoreyeram-azure-datasource
 ```
 
 ## Configuration
